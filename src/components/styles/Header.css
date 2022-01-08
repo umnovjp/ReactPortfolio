@@ -1,0 +1,48 @@
+header {
+  background: #f9b713;
+  height: 200px;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.bigHeader {
+  background: #f9b713;
+  height: 50px;
+}
+
+.bigHeader h1 {
+  margin: 0;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.nav-item {
+  background: #f9b713;
+  height: 20px;
+  display: inline;
+}
+
+.nav-item h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: yellowgreen;
+  font-size: 3rem;
+}
+
+.nav-item:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.nav-tabs button.active {
+  background-color: rgb(196, 248, 91);
+}

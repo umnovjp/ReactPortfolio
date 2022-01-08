@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import React from 'react';
 // Here we are importing a CSS file as a dependency
-import './styles/Header.css';
+import '../styles/Header.css';
 import Navigation from './Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='bigHeader'>
+    <div>
       <h1>Home</h1>
       {/* We are passing the currentPage from state and the function to update it */}
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
@@ -37,3 +37,15 @@ export default function PortfolioContainer() {
     </div>
   );
 }
+
+
+// function Header() {
+//   return (
+//     <header className="header">
+//       <h1>Home</h1>
+//       <Navigation />
+//     </header>
+//   );
+// }
+
+// export default Header;
