@@ -5,7 +5,7 @@ import './styles/Header.css';
 import Navigation from './Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
@@ -19,8 +19,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
     return <Contact />;
   };

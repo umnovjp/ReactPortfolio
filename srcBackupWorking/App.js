@@ -9,9 +9,27 @@ function App() {
   return (
     <div>
       <Header />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Navbar />
-      <Card />
-      <Card />
       <Card />
       <Footer />
     </div>

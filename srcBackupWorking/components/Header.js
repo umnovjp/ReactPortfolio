@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+// import React from 'react';
+// Here we are importing a CSS file as a dependency
+import './styles/Header.css';
+import Navigation from './Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
@@ -16,8 +19,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
     return <Contact />;
   };
@@ -25,9 +28,10 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='bigHeader'>
+      <h1>Home</h1>
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>

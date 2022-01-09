@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Navigation({ currentPage, handlePageChange }) {
     return (
       <ul className="nav-tabs">
