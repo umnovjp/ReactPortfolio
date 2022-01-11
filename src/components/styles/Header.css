@@ -1,7 +1,7 @@
 header {
   background: yellow;
   height: 200px;
-}
+} /*not used*/
 
 header h1 {
   margin: 0;
@@ -9,7 +9,7 @@ header h1 {
   text-align: center;
   color: white;
   font-size: 3rem;
-}
+} /*not used*/
 
 .bigHeader {
   background: yellow;
@@ -60,6 +60,8 @@ header h1 {
 
 .footer h1 {text-align: right;}
 
-.center {display: inline;
+.center {display: block;
 margin-left: auto;
-margin-right: auto;}
+margin-right: auto;} /*not used*/
+
+.book {font-size: 28px;}
