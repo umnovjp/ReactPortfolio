@@ -41,7 +41,7 @@ function Form() {
     }
     if (!checkMessage(message)) {
       setErrorMessage(
-        `Choose a more secure message for the account: ${userName}`
+        `enter a message for: ${userName}`
       );
       return;
     }
