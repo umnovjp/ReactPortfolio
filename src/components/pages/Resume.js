@@ -2,19 +2,25 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
+    <div className='header'>
       <h1>Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      </p>
-
-      <h1>About Page</h1>
-      <p>
-      Professional experience covering HTML, JavaScript, mySQL and noSQL databases, running server-based web apps with technologies like node.js, express.js, react.js, web API. Expertise developing apps using React and MERN.
-      </p>
-      <p>Over twenty years of experience in industry with great expertise in system design, integration, manufacturing. Born to solve complex engineering problems involving electronics, firmware, coding, software and present solutions 
-        to customers in simple terms. More than 200 system prototypes for data communication, medical devices, 
-        automotive industry assembled hands on from proof-of-concept to commercial product levels. </p>
+      <h2>Front-end Profciencies</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+      <h2>Back-end Profciencies</h2>
+      <ul>
+        <li>APIs</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MySQL</li>
+        <li>NoSQL</li>
+      </ul>
+     
+<h2>Download My Resume</h2>
         <a href='./assets/Alexander_Github.pdf'><span className = 'book'>🕮</span></a>
     </div>
   );

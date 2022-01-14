@@ -4,8 +4,8 @@ export function validateEmail(email) {
 }
 
 export function checkMessage(input) {
-//  const passw = /^[A-Za-z0-9]\w{1,1000}$/;
-  if (input.length>0) { //old version input.match(passw)
+
+  if (input.length>0) { 
     return true;
   }
   return false;

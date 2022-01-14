@@ -3,7 +3,7 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-      <ul className="nav-tabs">
+      <span className="nav-tabs">
         <button className="nav-item">
           <a
             href="#resume"
@@ -45,7 +45,7 @@ function Navigation({ currentPage, handlePageChange }) {
             Contact
           </a>
         </button>
-      </ul>
+      </span>
     );
   }
   
