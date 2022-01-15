@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b548127e.css",
-    "main.js": "/static/js/main.5a50ad81.js",
-    "static/media/EcommerceVideoDemo.png": "/static/media/EcommerceVideoDemo.5e40df3e10fce90ef2b9.png",
-    "static/media/BudgetTracker.png": "/static/media/BudgetTracker.fb645bfaff9d0440fd22.png",
-    "static/media/Fitness_Live.png": "/static/media/Fitness_Live.c5d1f29a371f742492bf.png",
-    "static/media/WorkDayLive.png": "/static/media/WorkDayLive.09b3bf6b75344d1da0c4.png",
-    "static/media/LinkedIn_logo_initials.png": "/static/media/LinkedIn_logo_initials.7a5eab93c7daf7d2ceeb.png",
-    "index.html": "/index.html",
-    "main.b548127e.css.map": "/static/css/main.b548127e.css.map",
-    "main.5a50ad81.js.map": "/static/js/main.5a50ad81.js.map"
+    "main.css": "/ReactPortfolio/static/css/main.b548127e.css",
+    "main.js": "/ReactPortfolio/static/js/main.8a4c63f4.js",
+    "static/media/EcommerceVideoDemo.png": "/ReactPortfolio/static/media/EcommerceVideoDemo.5e40df3e10fce90ef2b9.png",
+    "static/media/BudgetTracker.png": "/ReactPortfolio/static/media/BudgetTracker.fb645bfaff9d0440fd22.png",
+    "static/media/Fitness_Live.png": "/ReactPortfolio/static/media/Fitness_Live.c5d1f29a371f742492bf.png",
+    "static/media/WorkDayLive.png": "/ReactPortfolio/static/media/WorkDayLive.09b3bf6b75344d1da0c4.png",
+    "static/media/LinkedIn_logo_initials.png": "/ReactPortfolio/static/media/LinkedIn_logo_initials.7a5eab93c7daf7d2ceeb.png",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.b548127e.css.map": "/ReactPortfolio/static/css/main.b548127e.css.map",
+    "main.8a4c63f4.js.map": "/ReactPortfolio/static/js/main.8a4c63f4.js.map"
   },
   "entrypoints": [
     "static/css/main.b548127e.css",
-    "static/js/main.5a50ad81.js"
+    "static/js/main.8a4c63f4.js"
   ]
 }
