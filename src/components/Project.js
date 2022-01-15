@@ -13,7 +13,7 @@ const styles = {
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
-    color: 'white',
+    color: 'lightyellow',
     padding: '0 20px',
     width: 600,
   },
