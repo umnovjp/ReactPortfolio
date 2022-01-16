@@ -22,6 +22,8 @@ export default function Resume() {
      
 <h2>Download My Resume</h2>
         <a href='./assets/Alexander_Github.pdf'><span className = 'book'>🕮</span></a>
+        <br></br>
+        <br></br>
     </div>
   );
 }

@@ -12,39 +12,42 @@ header h1 {
 }
 
 .bigHeader {
-  background: yellow;
-  height: 50px;
-  width: 680px
+  background-image: linear-gradient(to right, lightgrey, darkgrey);
+  /*background: yellow;
+  height: 250px;
+  width: 680px */
 }
 
 .bigHeader h1 {
   margin: 0;
   padding-top: 5px;
   text-align: center;
-  color: red;
+  color: rgb(207, 9, 9);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
 .bigHeader h2 {
   margin: 0;
   padding-top: 5px;
-  text-align: center;
+  text-align: left;
   color: blueviolet;
   font-size: 18px;
 }
 
 .nav-item {
   background: #f9b713;
-  height: 20px;
+  height: 30px;
+  width: 90px;
   display: inline-block;
 }
 
-.nav-item h1 {
+.nav-item a {
   margin: 0;
-  padding-top: 75px;
-  text-align: center;
-  color: yellowgreen;
-  font-size: 3rem;
+  padding-top: 5px;
+  text-align: left;
+  color: rgb(205, 50, 179);
+  font-size: 18px;
 }
 
 .nav-item:hover {
@@ -54,7 +57,7 @@ header h1 {
 
 .nav-tabs {display: inline-block;}
 
-.nav-tabs button.active {
+.nav-item.active {
   background-color: rgb(196, 248, 91);
 }
 
@@ -75,6 +78,9 @@ header h1 {
 margin-left: auto;
 margin-right: auto;} /*not used*/
 
-.book {font-size: 28px;}
+.book {font-size: 28px;
+text-align: right;
+display: block;
+float:left}
 
 .listItem {width: 500px;}

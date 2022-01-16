@@ -55,7 +55,6 @@ function Form() {
 
   return (
     <div>
-      <p>Hello</p>
       <p>Phone: 214-293-9250</p>
       <p>Email: umnovjp@yahoo.com</p>
       <form className="form">

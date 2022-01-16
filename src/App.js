@@ -8,10 +8,13 @@ import Footer from './components/Footer';
 // I can place <Navbar /> and  <Card /> inside that <div> in return below but they are deleted for npw
 function App() {
   return (
+    <>
     <div>
       <Header /> 
-      <Footer />
+      
     </div>
+    <Footer />
+    </>
   );
 }
 
