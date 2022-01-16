@@ -21,7 +21,7 @@ export default function Resume() {
       </ul>
      
 <h2>Download My Resume</h2>
-        <a href='../assets/Alexander_Github.pdf'><span className = 'book'>🕮</span></a>
+        <a target="_blank" rel="noreferrer" href="..assets/Alexander_Github.pdf"><span className = 'book'>x</span></a>
         <br></br>
         <br></br>
     </div>

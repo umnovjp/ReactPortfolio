@@ -57,8 +57,9 @@ header h1 {
 
 .nav-tabs {display: inline-block;}
 
-.nav-item.active {
+.nav-item:active {
   background-color: rgb(196, 248, 91);
+  color: black
 }
 
 .form {
