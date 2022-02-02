@@ -21,6 +21,7 @@ const styles = {
     padding: 20,
     width: 600,
   },
+  division: {background: '#888888'}
 };
 
 
@@ -38,8 +39,9 @@ function Project({project}) {
        <div style={styles.content}>
         {description}
         
-      </div>
+      </div >
       {gitLink}
+      {/* <div style={styles.division}>for future use</div> */}
       <br />
       {liveLink}
       <br />
